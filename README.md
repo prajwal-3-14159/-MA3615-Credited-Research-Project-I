@@ -16,13 +16,14 @@ These two files are used for data collection. We have used money control website
 ## Data Analysis (main.py and main_pca.py)
 1. We have used the main.py file for the analysis of the data without the orignal features.
 2. We have used the main_pca.py file for the analysis of the data with only the 11-principle componants. we chose 11-principle componants because it explains 95% of the variance in the data.
-In both main.py and main_pca.py we have used the following techniques for the analysis.
+### In both main.py and main_pca.py we have used the following techniques for the analysis.
 1. Discriminant Analysis: Linear Discriminant Analysis (LDA) and Quadratic Discriminant Analysis (QDA)
 2. Logistic Regression
 3. Support Vector Machine (SVM)
 4. Random Forest
 5. Decision Tree
-7. XGBoost
-9. AdaBoost
-10. CatBoost
+6. XGBoost
+7. AdaBoost
+8. CatBoost
+9. Regularized XGBoost 
 
